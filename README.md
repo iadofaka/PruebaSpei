@@ -79,3 +79,9 @@ a otro.
 ## Criterio de búsqueda
 * Por clave de rastreo opción "1"
 * Por referencia opción "2"
+
+## Curl Examples
+
+```
+curl -H "Content-Type: application/json" -X POST -d '{"fecha":"22-05-2018","claveRastreo":"10000001","bancoOrigen":"BBVA BANCOMER","bancoDestino":"SCOTIABANK","cuenta":"0123456789102145878","monto":6584.00,"busqueda":"1"}'  http://localhost:8761/check/status
+```
